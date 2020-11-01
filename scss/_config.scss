@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@mixin screen800 {
+    @media screen and (min-width: 800px){
+        @content;
+    }
+}
+
+@mixin screen1024 {
+    @media screen and (min-width: 1024px){
+        @content;
+    }
+}

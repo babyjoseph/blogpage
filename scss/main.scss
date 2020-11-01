@@ -1,0 +1,33 @@
+@import "config";
+@import "header";
+@import "content";
+@import "nav";
+@import "responsive";
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(to left, rgba(34, 34, 34, 0.541), rgba(42, 42, 158, 0.514)), url("/image/backgroundcomp.jpg");
+    background-attachment: fixed;
+    .main{
+        display: flex;
+        flex-direction: column;
+        line-height: 1.6;
+        font-family: 'Josefin Sans', sans-serif;
+        .footer{
+            img{
+                border-radius: 50%;
+            }
+            a{
+                font-size: 2rem;
+                text-decoration: none;
+                color: #222;
+                &:hover{
+                    color: rgb(240, 64, 64);
+                }
+            }
+    
+        }
+    }
+}
