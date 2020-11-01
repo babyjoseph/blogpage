@@ -246,8 +246,8 @@ html {
 }
 
 body {
-  background: -webkit-gradient(linear, right top, left top, from(rgba(34, 34, 34, 0.541)), to(rgba(42, 42, 158, 0.514))), url("/image/backgroundcomp.jpg");
-  background: linear-gradient(to left, rgba(34, 34, 34, 0.541), rgba(42, 42, 158, 0.514)), url("/image/backgroundcomp.jpg");
+  background: -webkit-gradient(linear, right top, left top, from(rgba(34, 34, 34, 0.541)), to(rgba(42, 42, 158, 0.514))), url("image/backgroundcomp.jpg");
+  background: linear-gradient(to left, rgba(34, 34, 34, 0.541), rgba(42, 42, 158, 0.514)), url("image/backgroundcomp.jpg");
   background-attachment: fixed;
 }
 
